@@ -1,0 +1,29 @@
+# Build results
+bin/
+obj/
+
+# VS Code settings (optional, but recommended to ignore)
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rider / Visual Studio leftovers (just in case)
+.idea/
+.vs/
+
+# NuGet packages
+*.nupkg
+
+# Generated files
+*.g.cs
+*.g.i.cs
