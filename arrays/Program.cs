@@ -11,6 +11,7 @@ foreach(int score in scores)
 }
 Console.WriteLine();
 
+//shorthand method
 int Double(int value) => 2 * value;
 
 Console.WriteLine(Double(4));
