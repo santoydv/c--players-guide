@@ -12,19 +12,33 @@ public class Arrow
     _length = length;
   }
 
-  public ArrowHeadType GetArrowHeadType()
+  // public ArrowHeadType GetArrowHeadType()
+  // {
+  //   return _arrowHead;
+  // }
+
+  // public FletchingType GetFletchingType()
+  // {
+  //   return _fletching;
+  // }
+
+  public ArrowHeadType ArrowHead
   {
-    return _arrowHead;
+    get { return _arrowHead;}
+    set { _arrowHead = value;}
   }
 
-  public FletchingType GetFletchingType()
-  {
-    return _fletching;
-  }
 
-  public int GetLength()
+
+  // public int GetLength()
+  // {
+  //   return _length;
+  // }
+
+  public int Length
   {
-    return _length;
+    get { return _length;}
+    set { _length = value;}
   }
 
   public float GetCost()
