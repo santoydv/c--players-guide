@@ -12,6 +12,21 @@ public class Arrow
     _length = length;
   }
 
+  public static Arrow CreateEliteArrow()
+  {
+    return new Arrow(ArrowHeadType.Steel, FletchingType.Plastic, 95);
+  }
+
+  public static Arrow CreateBeginnerArrow()
+  {
+    return new Arrow(ArrowHeadType.Wood, FletchingType.GooseFeathers, 75);
+  }
+
+  public static Arrow CreateMarksmanArrow()
+  {
+    return new Arrow(ArrowHeadType.Steel, FletchingType.GooseFeathers, 65);
+  }
+
   // public ArrowHeadType GetArrowHeadType()
   // {
   //   return _arrowHead;

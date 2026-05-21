@@ -26,3 +26,7 @@ float length = Convert.ToSingle(Console.ReadLine());
 Arrow arrow = new Arrow(head, fletching, Convert.ToInt32(length));
 Console.WriteLine($"\n Cost of this arrow is : {arrow.GetCost()}");
 
+
+Arrow secondArrow = Arrow.CreateEliteArrow();
+Console.WriteLine($"\n Cost of this arrow is : {secondArrow.GetCost()}");
+
