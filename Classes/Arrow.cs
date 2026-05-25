@@ -5,6 +5,8 @@ public class Arrow
   private FletchingType _fletching;
   private int _length;
 
+  public Arrow(){}
+
   public Arrow(ArrowHeadType arrowHead, FletchingType fletching, int length)
   {
     _arrowHead = arrowHead;
