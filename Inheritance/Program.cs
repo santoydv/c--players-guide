@@ -2,6 +2,9 @@
 
 while (true)
 {
+    Console.WriteLine(pack.ToString());
+
+    
     Console.WriteLine("\nChoose Item To Add:");
     Console.WriteLine("1 - Arrow");
     Console.WriteLine("2 - Bow");

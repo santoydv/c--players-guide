@@ -43,4 +43,16 @@ public class Pack
 
     return true;
   }
+
+  public override string ToString()
+  {
+    string contents = "Pack containing";
+
+    for (int i = 0; i < CurrentItemCount; i++)
+    {
+      contents += " " + _items[i].ToString();
+    }
+
+    return contents;
+  }
 }
